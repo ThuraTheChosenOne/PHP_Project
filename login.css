@@ -1,0 +1,136 @@
+
+label{
+    color: #fff;
+}
+p{
+    text-align: center;
+    color: black;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 8px 2px;
+}
+body{
+
+    background-image: linear-gradient(rgba(13, 19, 40, 0.7),rgba(0, 17, 27, 0.7)),url("main.jpg");
+    font-family: 'Poppins',sans-serif;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+    /* background-color: #888; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 600px;
+    border-radius: 10px;
+    border: 2px solid #05b8c1ee;
+    background: transparent;
+    backdrop-filter: blur(2px);
+    box-sizing: 0 10px 5px rgba(0,0,0,0.5);;
+    display: flex;
+}
+
+.content{
+    width: 90%;
+}
+.lg{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin-bottom: 3px;
+    
+}
+
+.dotbox{
+    width: 10%;
+}
+.dot{
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    opacity: .5;
+
+    margin: 10px auto;
+}
+.dot.active{
+    opacity: 1;
+}
+.dot.done{
+    background-color: #05b8c1ee;
+}
+
+#form{
+    width: 100%;
+    border-left: 2px solid #05b8c1ee;
+    padding: 50px;
+}
+
+h1{
+    margin-top: 0;
+    text-align: center;
+    color: #fff;
+}
+input{
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+    
+}
+input:focus{
+    outline: none;
+}
+
+input.error{
+    border: 3px dotted red;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: end;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #1ca4b1;
+    border: 1px solid #008b97;
+    padding: 12px 34px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.btn:hover{
+    border: 1px solid #9edcd6;
+    background: #006D77;
+    transition: .8s;
+    color: #fff;
+}
+
+.lg a{
+    color: #fff;
+}
+a{
+    color: #008b97;
+    text-decoration: underline;
+}
+.form-check-input{
+    width: auto;
+    display: inline;
+  }
